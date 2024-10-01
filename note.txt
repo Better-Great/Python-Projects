@@ -1,0 +1,11 @@
+Create a Virtual Environment
+Navigate to the directory where you want to create your Flask project and create a virtual environment:
+
+python3 -m venv myenv
+
+Activate the virtual environment
+source myenv/bin/activate
+pip install Flask
+python app.py
+deactivate
+
